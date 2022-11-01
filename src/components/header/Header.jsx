@@ -11,9 +11,10 @@ import {
 
 const Header = ({ setQuery, setSelectedMeal, mealType, getData }) => {
   const handleSubmit = (e) => {
-    e.preventdefault();
+    e.preventDefault();
     getData();
   };
+
   return (
     <HeaderContainer>
       <MainHeader>Recipe App</MainHeader>
