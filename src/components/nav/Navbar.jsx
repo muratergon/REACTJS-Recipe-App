@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Navbar.style";
 import Nav, { Brand, Menu, MenuLink, Hamburger } from "./Navbar.style";
 import { GiHamburgerMenu } from "react-icons/gi";
